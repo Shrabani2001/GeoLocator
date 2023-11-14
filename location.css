@@ -1,0 +1,101 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #d5dd9b;
+}
+
+h1 {
+    text-align: center;
+    color: #09217e;
+    padding-left: 15px;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 40px 250px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgba(153, 139, 139, 0.3), rgba(96, 87, 87, 0.1)), url('https://sivacom.com.au/wp-content/uploads/2023/08/Navigating-technology.jpg');
+    background-repeat: no-repeat;
+    background-size: 1390px 522px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(128, 3, 3);
+    font-weight: bold;
+    /* text-shadow: 2px 2px rgb(211, 19, 19); */
+}
+
+p {
+    font-family: 'Dekko', cursive;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 24px;
+    text-align: center;
+    word-spacing: 3.5px;
+    text-justify: inter-word;
+    color: black;
+    font-weight: bold;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #09217e;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: large;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 4px 2px;
+    opacity: 1;
+    position: relative;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+p#location {
+    margin-top: 115px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 28%;
+    color: aqua;
+}
+
+.navigation {
+    display: flex;
+    margin-top: 20px;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 0;
+    padding: 8px;
+}
+
+.navigation h1 {
+    padding-left: 210px;
+    margin: 0;
+}

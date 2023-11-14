@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocation Finder</title>
+    <link rel="stylesheet" href="location.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="gps.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="navigation">
+        <button id="backButton"><img src="https://logodix.com/logo/2046000.png" alt="Back"
+                style="width: 30px; height: 30px; padding: 0;" onclick="goBack()"></button>
+        <button id="reloadButton"><img src="https://svgsilh.com/png-512/525698.png" alt="Reload"
+                style="width: 30px; height: 30px; padding: 0;" onclick="goReload()"></button>
+        <h1 class="animate__animated animate__heartBeat animate__infinite infinite">!! Welcome to GeoLocation Website !!
+        </h1>
+    </header>
+    <div class="container">
+        <p>Latitude and longitude are parameters or coordinates that help
+            determine
+            the location of any place on Earth. Both latitude and longitude are angles
+            that uniquely define points on the Earth's sphere. They constitute a
+            coordinate system or scheme to locate or identify geographic positions
+            anywhere on the Earth's surface.<br />
+            We are glad to help you to find your favorite geolocation.</p>
+        <h2>!!!!To Find Your GeoLocation Search Below!!!!</h2>
+        <input type="text" id="searchInput" placeholder="Search for a location">
+        <button onclick="searchLocation()">Search</button>
+        <p id="location"></p>
+    </div>
+    <h1>!! Thank You !!</h1>
+    <script src="location.js"></script>
+</body>
+
+</html>

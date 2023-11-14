@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/130879/pexels-photo-130879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+}
+
+nav ul li button:hover {
+    transform: scale(1.2);
+    letter-spacing: 4px;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+.dash a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* padding: 3% 6%; */
+    margin-top: 40px;
+    /* position: relative; */
+    /* top: -100px; */
+
+}
+
+.container h2 {
+    color: white;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Handlee', cursive;
+    padding-top: 20px;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #544e4e;
+    height: auto;
+    width: 100%;
+    padding-bottom: 12px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .social_media a {
+    color: bisque;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+p {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 18px;
+}

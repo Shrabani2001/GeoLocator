@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="about.ico" type="image/x-icon">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="contact.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <button id="backButton"><img src="https://logodix.com/logo/2046000.png" alt="Back"
+                    style="width: 30px; height: 30px;" onclick="goBack()"></button>
+            <button id="reloadButton"><img src="https://svgsilh.com/png-512/525698.png" alt="Reload"
+                    style="width: 30px; height: 30px;" onclick="goReload()"></button>
+        </div>
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">Bhubaneswar</div>
+                    <div class="text-two">Odisha</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+91 73779 93370</div>
+                    <div class="text-two">+91 63713 96881</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">biswajitmohaptra2002@gmail.com</div>
+                    <div class="text-two">shrabaninayak18@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any types of quries related to our website, you can send us message
+                    from here. It's our pleasure to help you.</p>
+
+                <form action="" method="post">
+                    <div class="input-box">
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box message-box">
+                        <textarea placeholder="Enter your message" id="message" required></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" id="submit" onclick="myFunction()" value="Send Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+
+</html>
